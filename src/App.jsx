@@ -1,14 +1,14 @@
 import './App.css';
-import LikeImage from './components/LikeImage';
-import LikePost from './components/LikePost';
+import LikeImage2 from './Project/LikeImage2';
+import LikePost2 from './Project/LikePost2';
 
 function App() {
   return (
     <div>
       <h3>Some Blog</h3>
       <div className='buttons'>
-        <LikePost/>
-        <LikeImage/>
+        <LikePost2 />
+        <LikeImage2 />
       </div>
     </div>
   );
